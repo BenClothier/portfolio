@@ -111,7 +111,17 @@
 
 .mainpage h1 {
   font-size: 3vw;
-  
+  margin-bottom: 0%;
+}
+
+.mainpage h2 {
+  font-size: 1.5vw;
+  margin: 0%;
+}
+
+.mainpage h3 {
+  font-size: 1.2vw;
+  margin: 0%;
 }
 
 .buttonpanel {
@@ -122,6 +132,7 @@
   text-decoration: none;
   display: grid;
   row-gap: 5%;
+  padding-top: 4%;
 }
 
 .buttonpanel .imagebutton{

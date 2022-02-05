@@ -7,6 +7,8 @@ function Project1() {
     return (
         <div className="mainpage">
             <h1>FINAL OUTPOST</h1>
+            <h3>2020 – Present</h3>
+            <h2>Lead Programmer | Unity/C# | iOS/Android</h2>
             <p>You have been chosen as the leader of what you think is the last remaining outpost. You must manage your citizens and resources in order to build an impenetrable fortress. How long can you survive against the zombie onslaught?</p>
             <div className="gallery">
                 <iframe src="https://www.youtube.com/embed/XCUyMTKVGGg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>

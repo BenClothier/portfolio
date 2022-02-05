@@ -25,7 +25,155 @@
 }
 
 .App-link {
+  font-family: "Calibri";
   color: #61dafb;
+}
+
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 18%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(26, 26, 26);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  font-family: "Calibri";
+  text-align:center;
+}
+
+/* The navigation menu links */
+.sidebar p {
+  padding: 16px 6px 16px 6px; /* top right bottom left*/
+  text-decoration: none;
+  font-size: 25px;
+  color: #bdbdbd;
+  display: block;
+  margin:auto;
+  font-weight: bold;
+}
+
+.sidebar h1 {
+  color: #bdbdbd;
+  font-weight: bold;
+}
+
+.sidebar h2 {
+  color: #bdbdbd;
+  font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar p:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.links {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#profilepicture {
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+/* Style page content */
+.main {
+  background-color: #f0f0f0;
+  position: fixed;
+  margin-left: 18%; /* Same as the width of the sidebar */
+  text-align:left;
+  height: 100%;
+  width: 100%;
+}
+
+.mainpage {
+  font-family: "Calibri";
+  padding: 0px 25px;
+  text-align: center;
+  height: 100%;
+  width: 79.75%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  float:left;
+  position:relative;
+  margin-left:-5px;
+}
+
+.mainpage h1 {
+  font-size: 60px;
+}
+
+.buttonpanel {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 300px;
+  padding-top: 50px;
+  text-decoration: none;
+  display: grid;
+  row-gap: 5%;
+}
+
+.buttonpanel .imagebutton{
+  width: 100%;
+  aspect-ratio: 8/5;
+  margin: auto;
+}
+
+.hiddentext{
+  position: relative;
+  align-self: center;
+}
+
+.imagebutton{
+  position: relative;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  overflow: hidden;
+  display: grid;
+}
+
+.imagebutton:hover{
+  transform: scale(1.01);
+}
+
+.imagebutton img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
+
+  filter: blur(2px) brightness(40%);
+  transform: scale(1.05);
+}
+
+.imagebutton:hover .hiddentext{
+  display: block;
+}
+
+.imagebutton:hover img{
+  filter: brightness(45%);
+  transform: scale(1.10);
+}
+
+.imagebutton img, .hiddentext{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
 }
 
 @keyframes App-logo-spin {

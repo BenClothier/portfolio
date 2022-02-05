@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
 
 .App-header {
@@ -76,35 +79,34 @@
 /* Style page content */
 .main {
   background-color: #f0f0f0;
-  position: fixed;
+  position: relative;
   margin-left: 18%; /* Same as the width of the sidebar */
   text-align:left;
   height: 100%;
-  width: 100%;
+  width: 82%;
 }
 
 .mainpage {
   font-family: "Calibri";
-  padding: 0px 25px;
   text-align: center;
-  height: 100%;
-  width: 79.75%;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
-  float:left;
-  position:relative;
-  margin-left:-5px;
+  position: relative;
+  font-size: large;
+  padding: 25px;
+  height: 100%;
 }
 
 .mainpage h1 {
   font-size: 60px;
+  
 }
 
 .buttonpanel {
-  width: 50%;
+  max-width: 80%;
+  min-width: 50%;
   margin: auto;
   padding-bottom: 300px;
-  padding-top: 50px;
   text-decoration: none;
   display: grid;
   row-gap: 5%;
@@ -125,7 +127,7 @@
   position: relative;
   color: #ffffff;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 5vw;
   overflow: hidden;
   display: grid;
 }

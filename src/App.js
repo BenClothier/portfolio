@@ -25,11 +25,11 @@ function App() {
           <div>
             <h1>Ben Clothier</h1>
             <img id="profilepicture" src={profilepicture} alt="Profile Picture"/>
-            <h2>Portfolio</h2>
+            <h3>Portfolio</h3>
           </div>
           <div className="links">
-            <Link to="/"><p>About</p></Link>
-            <Link to="/projects"><p>Projects</p></Link>
+            <Link to="/"><h1>About</h1></Link>
+            <Link to="/projects"><h1>Projects</h1></Link>
           </div>
         </div>
         <div className="main">

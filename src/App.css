@@ -38,7 +38,7 @@
 .sidebar p {
   padding: 16px 6px 16px 6px; /* top right bottom left*/
   text-decoration: none;
-  font-size: 25px;
+  font-size: 3vw;
   color: #bdbdbd;
   display: block;
   margin:auto;
@@ -48,26 +48,36 @@
 .sidebar h1 {
   color: #bdbdbd;
   font-weight: bold;
+  font-size: 2.5vw;
+  margin: 10px;
 }
 
-.sidebar h2 {
+.sidebar h3 {
   color: #bdbdbd;
   font-weight: bold;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidebar p:hover {
-  color: #ffffff;
-  cursor: pointer;
+  
+  font-size: 2vw;
 }
 
 .links {
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  position: relative;
+  margin: auto;
+  margin-top: 30%;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.links h1 {
+  color: #bdbdbd;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+/* When you mouse over the navigation links, change their color */
+.links h1:hover {
+  color: #ffffff;
+  cursor: pointer;
 }
 
 #profilepicture {
@@ -93,12 +103,14 @@
   overflow-x: hidden;
   position: relative;
   font-size: large;
-  padding: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 2%;
   height: 100%;
 }
 
 .mainpage h1 {
-  font-size: 60px;
+  font-size: 3vw;
   
 }
 
@@ -125,21 +137,26 @@
 
 .imagebutton{
   position: relative;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 5vw;
   overflow: hidden;
   display: grid;
+  max-width: 800px;
 }
 
 .imagebutton:hover{
   transform: scale(1.01);
 }
 
+.imagebutton .hiddentext {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 4vw;
+  margin: 40px;
+}
+
 .imagebutton img {
   width: 100%;
   height: 100%;
-  margin: auto;
   object-fit: cover;
   object-position: center;
 
@@ -165,4 +182,26 @@ a:link, a:visited,  a:hover, a:active
 {
     color: #000000;
     text-decoration: none;
+}
+
+
+.gallery {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 20%;
+}
+
+.gallery img {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  padding-top: 4%;
+}
+
+.gallery iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  padding-top: 4%;
 }

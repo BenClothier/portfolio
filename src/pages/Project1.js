@@ -22,7 +22,7 @@ function Project1() {
                 <img id="picture2" src={picture2} alt="picture2"/>
                 <div className="caption"><p>Viewing the skill tree</p></div>
                 <img id="picture3" src={picture3} alt="picture3"/>
-                <div className="caption"><p>Playing the game in german</p></div>
+                <div className="caption"><p>Playing the game in German</p></div>
                 <img id="picture4" src={picture4} alt="picture4"/>
                 <div className="caption"><p>Viewing achievements in Game Center</p></div>
             </div>

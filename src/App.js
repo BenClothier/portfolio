@@ -21,6 +21,16 @@ function App() {
   return (
     <div className="App">
       <HashRouter basename="">
+        
+        <div className="main">
+          <Routes>
+            <Route path="/" element={<About/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/project1" element={<Project1/>} />
+            <Route path="/project2" element={<Project2/>} />
+            <Route path="/project3" element={<Project3/>} />
+          </Routes>
+        </div>
         <div className="sidebar">
           <div>
             <h1>Ben Clothier</h1>
@@ -31,15 +41,6 @@ function App() {
             <Link to="/"><h1>About</h1></Link>
             <Link to="/projects"><h1>Projects</h1></Link>
           </div>
-        </div>
-        <div className="main">
-          <Routes>
-            <Route path="/" element={<About/>} />
-            <Route path="/projects" element={<Projects/>} />
-            <Route path="/project1" element={<Project1/>} />
-            <Route path="/project2" element={<Project2/>} />
-            <Route path="/project3" element={<Project3/>} />
-          </Routes>
         </div>
       </HashRouter>
     </div>

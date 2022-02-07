@@ -22,27 +22,22 @@
 }
 
 .sidebar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 18%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
   left: 0;
   background-color: rgb(26, 26, 26);
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   font-family: "Calibri";
-  text-align:center;
-}
+  text-align: center;
+  box-shadow: 2px 2px 19px rgb(133, 133, 133);
+  -o-box-shadow: 2px 2px 19px rgb(133, 133, 133);
+  -webkit-box-shadow: 2px 2px 19px rgb(133, 133, 133);
+  -moz-box-shadow: 2px 2px 19px rgb(133, 133, 133);
 
-/* The navigation menu links */
-.sidebar p {
-  padding: 16px 6px 16px 6px; /* top right bottom left*/
-  text-decoration: none;
-  font-size: 3vw;
-  color: #bdbdbd;
-  display: block;
-  margin:auto;
-  font-weight: bold;
+  
 }
 
 .sidebar h1 {

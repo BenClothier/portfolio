@@ -150,7 +150,7 @@
   position: relative;
   overflow: hidden;
   display: grid;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .imagebutton:hover{
@@ -160,8 +160,8 @@
 .imagebutton .hiddentext {
   color: #ffffff;
   font-weight: bold;
-  font-size: 16px;
-  font-size: 4vw;
+  font-size: 40px;
+  font-size: 3vw;
   margin: 40px;
 }
 
@@ -215,4 +215,12 @@ a:link, a:visited,  a:hover, a:active
   margin: auto;
   height: auto;
   padding-top: 4%;
+}
+
+.caption p {
+  font-size: 20px;
+  color: #777777;
+  font-style: italic;
+  margin: 0%;
+  padding-bottom: 10px;
 }

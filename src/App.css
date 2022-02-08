@@ -253,3 +253,32 @@ a:link,  a:visited, a:hover, a:active
   padding: 0px;
   margin: 0%;
 }
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 15px 0px rgb(199, 199, 199);
+  -o-box-shadow: 0px 5px 15px 0px rgb(199, 199, 199);
+  -webkit-box-shadow: 0px 5px 15px 0px rgb(199, 199, 199);
+  -moz-box-shadow: 0px 5px 15px 0px rgb(199, 199, 199);
+  padding: 10px;
+  margin: 10px 0px 50px 0px;
+}
+
+.card p {
+  padding: 0px 10px 0px 10px;
+}
+
+.card h1 {
+  margin: 10px;
+}
+
+.card .column {
+  float: left;
+  width: 50%;
+}
+
+.card .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

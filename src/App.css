@@ -30,39 +30,72 @@
   left: 0;
   background-color: rgb(26, 26, 26);
   overflow-x: hidden;
+  overflow-y: hidden;
   font-family: "Calibri";
   text-align: center;
-  box-shadow: 2px 2px 19px rgb(133, 133, 133);
-  -o-box-shadow: 2px 2px 19px rgb(133, 133, 133);
-  -webkit-box-shadow: 2px 2px 19px rgb(133, 133, 133);
-  -moz-box-shadow: 2px 2px 19px rgb(133, 133, 133);
-
-  
+  box-shadow: 5px 0px 15px 0px rgb(99, 99, 99);
+  -o-box-shadow: 5px 0px 15px 0px rgb(99, 99, 99);
+  -webkit-box-shadow: 5px 0px 15px 0px rgb(99, 99, 99);
+  -moz-box-shadow: 5px 0px 15px 0px rgb(99, 99, 99);
+  justify-content: center; /* aligns on vertical for column */
+  align-items: center; /* aligns on horizontal for column */
 }
 
-.sidebar h1 {
-  color: #ececec;
-  font-weight: bold;
-  font-size: calc(5px + 3vmin);
-  margin: 10px;
-}
-
-.sidebar h3 {
-  color: #ececec;
-  font-weight: bold;
-  font-size: calc(5px + 2vmin);
-}
-
-.links {
-  margin: 0;
+.sidebar header h1 {
   position: relative;
-  margin: auto;
-  margin-top: 30%;
-  /* -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
+  color: #ececec;
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-size: calc(5px + 3vmin);
+  width: 100%;
+}
+
+.sidebar header img {
+  position: relative;
+  border-radius: 50%;
+  height: 50%;
+  aspect-ratio: 1;
+}
+
+.sidebar header h3 {
+  position: relative;
+  color: #ececec;
+  font-weight: bold;
+  font-size: calc(5px + 1.5vmin);
+  width: 100%;
+}
+
+.sidebar header {
+  position: absolute; 
+  height: 30%;
+  width: 100%;
+}
+
+.sidebar .links{
+  height: 45%;
+  width: 100%;
+  top: 30%;
+  position: absolute; 
+  overflow: hidden;
+}
+
+.sidebar footer {
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+}
+
+.sidebar footer img {
+  position: relative;
+  top: 50%;
+  width: 15%;
+  padding: 5%;
 }
 
 .links h1 {
+  top: 30%;
+  position: relative;
   color: #bdbdbd;
   font-weight: bold;
   font-size: calc(5px + 3vmin);
@@ -72,12 +105,6 @@
 .links h1:hover {
   color: #ffffff;
   cursor: pointer;
-}
-
-#profilepicture {
-  border-radius: 50%;
-  max-width: 50%;
-  height: auto;
 }
 
 /* Style page content */
@@ -183,12 +210,11 @@
   grid-row: 1;
 }
 
-a:link, a:visited,  a:hover, a:active
+a:link,  a:visited, a:hover, a:active
 {
     color: #000000;
     text-decoration: none;
 }
-
 
 .gallery {
   max-width: 900px;
@@ -217,4 +243,9 @@ a:link, a:visited,  a:hover, a:active
   font-style: italic;
   margin: 0%;
   padding-bottom: 10px;
+}
+
+.mainpage .row {
+  padding: 0px;
+  margin: 0%;
 }

@@ -11,6 +11,8 @@ import {
 } from "react-router-dom"
 
 import profilepicture from "./images/profile-picture.png"
+import emailIcon from "./images/email.png"
+import linkedinIcon from "./images/linkedin.png"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import Project1 from "./pages/Project1"
@@ -32,15 +34,19 @@ function App() {
           </Routes>
         </div>
         <div className="sidebar">
-          <div>
+          <header>
             <h1>Ben Clothier</h1>
             <img id="profilepicture" src={profilepicture} alt="Profile Picture"/>
             <h3>Portfolio</h3>
-          </div>
+          </header>
           <div className="links">
-            <Link to="/"><h1>About</h1></Link>
-            <Link to="/projects"><h1>Projects</h1></Link>
+              <Link to="/"><h1>About</h1></Link>
+              <Link to="/projects"><h1>Projects</h1></Link>
           </div>
+          <footer>
+            <a href="mailto:ben.clothier8@icloud.com" target="_blank"><img id="emailIcon" src={emailIcon} alt="Email" width="30vw"/></a>
+            <a href="https://www.linkedin.com/in/ben-clothier" target="_blank"><img id="linkedinIcon" src={linkedinIcon} alt="LinkedIn" width="30vw"/></a>
+          </footer>
         </div>
       </HashRouter>
     </div>

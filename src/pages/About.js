@@ -1,5 +1,9 @@
 import React from "react";
 
+import threeStars from "../images/3-stars.png"
+import twoStars from "../images/2-stars.png"
+import oneStar from "../images/1-star.png"
+
 function About() {
     return (
         <div className="mainpage">
@@ -20,32 +24,32 @@ function About() {
             <div className="card">
                 <div class="row">
                     <div class="column">
-                        <h3>Languages</h3>
-                        <div className="skillbox"><p>C#</p></div>
+                        <h2>Languages</h2>
+                        <div className="skillbox"><p>C#</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Python</p></div>
+                        <div className="skillbox"><p>Python</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>C</p></div>
+                        <div className="skillbox"><p>C</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Java</p></div>
+                        <div className="skillbox"><p>Java</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Haskell</p></div>
+                        <div className="skillbox"><p>Haskell</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>C++</p></div>
+                        <div className="skillbox"><p>C++</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
                     </div>
                     <div class="column">
-                        <h3>Tools</h3>
-                        <div className="skillbox"><p>Unity</p></div>
+                        <h2>Tools</h2>
+                        <div className="skillbox"><p>Unity</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Visual Studio</p></div>
+                        <div className="skillbox"><p>Visual Studio</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>GitHub/GitKraken</p></div>
+                        <div className="skillbox"><p>GitHub/ GitKraken</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Affinity Photo</p></div>
+                        <div className="skillbox"><p>Affinity Photo</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>JetBrains IDEs</p></div>
+                        <div className="skillbox"><p>JetBrains IDEs</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Blender</p></div>
+                        <div className="skillbox"><p>Blender</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
                     </div>
                 </div>
             </div>

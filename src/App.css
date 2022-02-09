@@ -268,6 +268,10 @@ a:link,  a:visited, a:hover, a:active
   padding: 0px 10px 0px 10px;
 }
 
+.card h2 {
+  margin: 20px;
+}
+
 .card h3 {
   margin: 20px;
 }
@@ -283,13 +287,28 @@ a:link,  a:visited, a:hover, a:active
   clear: both;
 }
 
-.skillbox {
+.skillbox{
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skillbox img {
+  height: 25px;
+  margin-top: 10px;
+}
+
+.skillbox p {
+  font-size: calc(10px + 1vmin);
+  margin: 0%;
+  margin-top: 5%;
 }
 
 .divider {
   position: relative;
   margin: auto;
   background-color: #0000002a;
-  width: 50%;
+  width: 60%;
   height: 2px;
 }

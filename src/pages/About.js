@@ -25,6 +25,7 @@ function About() {
                 <div class="row">
                     <div class="column">
                         <h2>Languages</h2>
+                        <div className="divider" />
                         <div className="skillbox"><p>C#</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>Python</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
@@ -39,11 +40,12 @@ function About() {
                     </div>
                     <div class="column">
                         <h2>Tools</h2>
+                        <div className="divider" />
                         <div className="skillbox"><p>Unity</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>Visual Studio</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>GitHub/ GitKraken</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
+                        <div className="skillbox"><p>GitHub / GitKraken</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>Affinity Photo</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />

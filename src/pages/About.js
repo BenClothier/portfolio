@@ -14,18 +14,38 @@ function About() {
                 </p>
                 <p>      
                     Feel free to contact me if you want to know more :)
-
                 </p>
             </div>
             <h1>SKILLS</h1>
             <div className="card">
-                
                 <div class="row">
                     <div class="column">
                         <h3>Languages</h3>
+                        <div className="skillbox"><p>C#</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Python</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>C</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Java</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Haskell</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>C++</p></div>
                     </div>
                     <div class="column">
                         <h3>Tools</h3>
+                        <div className="skillbox"><p>Unity</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Visual Studio</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>GitHub/GitKraken</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Affinity Photo</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>JetBrains IDEs</p></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>Blender</p></div>
                     </div>
                 </div>
             </div>

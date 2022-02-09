@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6284f987.css",
-    "main.js": "/portfolio/static/js/main.d049a945.js",
+    "main.css": "/portfolio/static/css/main.fed54172.css",
+    "main.js": "/portfolio/static/js/main.dbb23ac4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/4.png": "/portfolio/static/media/4.77cf9595d3a03d32a6a3.png",
     "static/media/1.png": "/portfolio/static/media/1.32e4e96ad396204289b1.png",
@@ -11,17 +11,20 @@
     "static/media/AlienMenu.png": "/portfolio/static/media/AlienMenu.f6036c2a637af0f87ec6.png",
     "static/media/Title.png": "/portfolio/static/media/Title.25fdbfe495b654cc4c9f.png",
     "static/media/3.png": "/portfolio/static/media/3.92ede76fbaa7353d3677.png",
+    "static/media/3-stars.png": "/portfolio/static/media/3-stars.f1641400478869fa607e.png",
+    "static/media/2-stars.png": "/portfolio/static/media/2-stars.841cda644e3f0bb86437.png",
     "static/media/apple-store.png": "/portfolio/static/media/apple-store.b76c981b818b62e485bb.png",
     "static/media/google-play.png": "/portfolio/static/media/google-play.4caa203e14d48af4327f.png",
     "static/media/email.png": "/portfolio/static/media/email.0d9156196cc05a4721b2.png",
+    "static/media/1-star.png": "/portfolio/static/media/1-star.6e1d220f6ad08b036b74.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.1b272fe054f78f270752.png",
     "index.html": "/portfolio/index.html",
-    "main.6284f987.css.map": "/portfolio/static/css/main.6284f987.css.map",
-    "main.d049a945.js.map": "/portfolio/static/js/main.d049a945.js.map",
+    "main.fed54172.css.map": "/portfolio/static/css/main.fed54172.css.map",
+    "main.dbb23ac4.js.map": "/portfolio/static/js/main.dbb23ac4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6284f987.css",
-    "static/js/main.d049a945.js"
+    "static/css/main.fed54172.css",
+    "static/js/main.dbb23ac4.js"
   ]
 }

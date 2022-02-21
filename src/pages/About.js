@@ -37,6 +37,8 @@ function About() {
                         <div className="skillbox"><p>Haskell</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>C++</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
+                        <div className="divider" />
+                        <div className="skillbox"><p>HTML / CSS</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
                     </div>
                     <div class="column">
                         <h2>Tools</h2>

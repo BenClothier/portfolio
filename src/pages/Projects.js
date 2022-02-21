@@ -11,6 +11,7 @@ import {
 import projectcover1 from "../images/Title.png"
 import projectcover2 from "../images/NavMesh.png"
 import projectcover3 from "../images/AlienMenu.png"
+import projectcover4 from "../images/coming-soon.png"
 
 function Projects() {
     return (
@@ -35,6 +36,12 @@ function Projects() {
                         <div className="hiddentext">ALIEN</div>
                     </div>
                 </Link>
+                
+                <div className="divider" />
+                <div className="imagebutton">
+                    <img id="projectcover1" src={projectcover4} alt="coming-soon"/>
+                    <div className="hiddentext">= COMING SOON =</div>
+                </div>
             </div>
         </div>
     );

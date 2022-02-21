@@ -149,7 +149,7 @@
   max-width: 80%;
   min-width: 50%;
   margin: auto;
-  padding-bottom: 300px;
+  padding-bottom: 500px;
   text-decoration: none;
   display: grid;
   row-gap: 5%;
@@ -160,6 +160,14 @@
   width: 100%;
   aspect-ratio: 8/5;
   margin: auto;
+}
+
+.buttonpanel .divider {
+  position: relative;
+  margin: auto;
+  background-color: #0000002a;
+  width: 45%;
+  height: 2px;
 }
 
 .hiddentext{

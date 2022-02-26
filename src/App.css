@@ -149,7 +149,7 @@
   max-width: 80%;
   min-width: 50%;
   margin: auto;
-  padding-bottom: 500px;
+  padding-bottom: 1000px;
   text-decoration: none;
   display: grid;
   row-gap: 5%;
@@ -166,8 +166,13 @@
   position: relative;
   margin: auto;
   background-color: #0000002a;
-  width: 45%;
+  width: 55%;
   height: 2px;
+}
+
+.buttonpanel h2 {
+  margin: 0%;
+  padding-top: 30px;
 }
 
 .hiddentext{

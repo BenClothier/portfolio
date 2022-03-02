@@ -227,6 +227,10 @@
   grid-row: 1;
 }
 
+.imagebutton Link{
+  position: relative;
+}
+
 a:link,  a:visited, a:hover, a:active
 {
     color: #000000;

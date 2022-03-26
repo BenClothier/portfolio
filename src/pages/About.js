@@ -28,15 +28,15 @@ function About() {
                         <div className="divider" />
                         <div className="skillbox"><p>C#</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Python</p> <img id="threeStars" src={threeStars} alt="threeStars"/></div>
+                        <div className="skillbox"><p>Python</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>C</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>Java</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>Haskell</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
+                        <div className="skillbox"><p>C++</p> <img id="twoStars" src={twoStars} alt="twoStars"/></div>
                         <div className="divider" />
-                        <div className="skillbox"><p>C++</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
+                        <div className="skillbox"><p>Haskell</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
                         <div className="divider" />
                         <div className="skillbox"><p>HTML / CSS</p> <img id="oneStar" src={oneStar} alt="oneStar"/></div>
                     </div>
